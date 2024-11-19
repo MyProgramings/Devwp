@@ -1,0 +1,119 @@
+/*!
+Theme Name: devwp
+Theme URI: http://underscores.me/
+Author: abdullah
+Author URI: https://trip1.alribbah.org/
+Description: Travel company
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: devwp
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+devwp is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+*/
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+$fa-font-path: "webfonts" !default;
+@import "./node_modules/@fortawesome/fortawesome-free/scss/fortawesome";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/solid";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/brands";
+@import "./node_modules/@fortawesome/fortawesome-free/scss/regular";
+
+@import "custom/accessibility";
+
+@import "custom/alignments";
+
+@import "custom/buttons";
+
+@import "custom/colors";
+
+@import "custom/fields";
+
+@import "custom/footer";
+
+@import "custom/header";
+
+@import "custom/links";
+
+@import "custom/media";
+
+@import "custom/menus";
+
+@import "custom/mixins";
+
+@import "custom/posts-and-pages";
+
+@import "custom/social-menu";
+
+@import "custom/tables";
+
+@import "custom/widgets";
+
+// Import variables and mixins.
+@import "abstracts/abstracts";
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+@import "generic/normalize";
+
+/* Box sizing
+--------------------------------------------- */
+@import "generic/box-sizing";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/base";
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
+// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/components";
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+@import "plugins/jetpack/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+@import "utilities/accessibility";
+
+/* Alignments
+--------------------------------------------- */
+@import "utilities/alignments";
